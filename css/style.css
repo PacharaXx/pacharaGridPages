@@ -136,6 +136,18 @@ li:active {
 
 @media screen and (min-width: 768px) {
     .content {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .menu {
+        grid-column: span 1;
+    }
+
+    .mainContent {
+        grid-column: span 2;
+    }
+
+    .secondContent {
+        grid-column: span 1;
     }
 }
